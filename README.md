@@ -1,5 +1,5 @@
 # Pintos Installation
-For the installation and setup of Pintos, I followed the steps mentioned in this [link](https://tssurya.wordpress.com/2014/08/16/installing-pintos-on-your-machine/):
+For the installation and setup of Pintos, I followed the steps mentioned [here](https://tssurya.wordpress.com/2014/08/16/installing-pintos-on-your-machine/)
 All the steps performed for this installation and the issues and errors faced along with their solutions are listed below:
 NOTE: 
 1. The library “stropts.h” is included in some files in pintos. This library does not work for latest Ubuntu versions after 18.04 (e.g. 20.04). So, I used Ubuntu version 14.04.
@@ -14,15 +14,17 @@ Install qemu on your machine using the command:
 Run following commands to check if qemu was properly installed. 
 * qemu
 * qemu-system-x86 
+
 commands did not work for me. 
 * qemu-system-x86_64 
+
 ran successfully and a qemu window popped up.
 
 ![Resource 2](https://github.com/Fatima-Mujahid/pintos-installation/blob/main/Resources/2.png)
 ![Resource 3](https://github.com/Fatima-Mujahid/pintos-installation/blob/main/Resources/3.png)
 
 ### Step 2: 
-Download pintos using the following [link](http://web.stanford.edu/class/cs140/projects/pintos/pintos.tar.gz):
+Download pintos from this [link](http://web.stanford.edu/class/cs140/projects/pintos/pintos.tar.gz)
 Create a directory os-pintos in /home/fatimamujahid and paste the extracted pintos directory inside os-pintos.
 
 ![Resource 4](https://github.com/Fatima-Mujahid/pintos-installation/blob/main/Resources/4.png)
@@ -42,6 +44,7 @@ Open the Makefile present in the utils directory and replaced line number 5 by
 ### Step 5: 
 Use the 
 * make 
+
 command to compile the utils folder.
 
 ![Resource 7](https://github.com/Fatima-Mujahid/pintos-installation/blob/main/Resources/7.png)
@@ -55,6 +58,7 @@ Open the file Make.vars present in /home/fatimamujahid/os-pintos/pintos/src/thre
 ### Step 7: 
 Use the 
 * make 
+
 command to compile the pintos kernel in the threads directory.
 
 ![Resource 9](https://github.com/Fatima-Mujahid/pintos-installation/blob/main/Resources/9.png)
@@ -85,8 +89,10 @@ Open the file Pintos.pm present in the utils directory and change line number 36
 ### Step 10: 
 Run 
 * pintos run alarm-multiple
+
 command in the utils directory. (In my case, it was not recognized. I found the solution for this issue in the comment section of the link mentioned at the start of the document. Then I tried 
 * ./pintos run alarm-multiple 
+
 command which worked.) 
 It will create 5 threads and the output will be displayed both in the terminal and in the qemu window.
 
@@ -99,8 +105,10 @@ It will create 5 threads and the output will be displayed both in the terminal a
 ### Step 11: 
 Open the file .bashrc present in /home/fatimamujahid using 
 * ls -a | grep bashrc 
+
 command and add 
 * export PATH=$HOME/os-pintos/pintos/src/utils:$PATH 
+
 at the end of this file and restart the terminal.
 
 ![Resource 19](https://github.com/Fatima-Mujahid/pintos-installation/blob/main/Resources/19.png)
