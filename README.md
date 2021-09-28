@@ -24,7 +24,7 @@ ran successfully and a qemu window popped up.
 ![Resource 3](https://github.com/Fatima-Mujahid/pintos-installation/blob/main/Resources/3.png)
 
 ### Step 2: 
-Download pintos from this [link](http://web.stanford.edu/class/cs140/projects/pintos/pintos.tar.gz)
+Download pintos from [http://web.stanford.edu/class/cs140/projects/pintos/pintos.tar.gz](http://web.stanford.edu/class/cs140/projects/pintos/pintos.tar.gz)
 Create a directory os-pintos in /home/fatimamujahid and paste the extracted pintos directory inside os-pintos.
 
 ![Resource 4](https://github.com/Fatima-Mujahid/pintos-installation/blob/main/Resources/4.png)
