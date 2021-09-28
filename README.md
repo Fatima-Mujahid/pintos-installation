@@ -1,5 +1,5 @@
 # Pintos Installation
-For the installation and setup of Pintos, I followed the steps mentioned [here](https://tssurya.wordpress.com/2014/08/16/installing-pintos-on-your-machine/)
+For the installation and setup of Pintos, I followed the steps mentioned [here.](https://tssurya.wordpress.com/2014/08/16/installing-pintos-on-your-machine/)
 All the steps performed for this installation and the issues and errors faced along with their solutions are listed below:
 NOTE: 
 1. The library “stropts.h” is included in some files in pintos. This library does not work for latest Ubuntu versions after 18.04 (e.g. 20.04). So, I used Ubuntu version 14.04.
@@ -25,6 +25,7 @@ ran successfully and a qemu window popped up.
 
 ### Step 2: 
 Download pintos from [http://web.stanford.edu/class/cs140/projects/pintos/pintos.tar.gz](http://web.stanford.edu/class/cs140/projects/pintos/pintos.tar.gz)
+
 Create a directory os-pintos in /home/fatimamujahid and paste the extracted pintos directory inside os-pintos.
 
 ![Resource 4](https://github.com/Fatima-Mujahid/pintos-installation/blob/main/Resources/4.png)
@@ -136,8 +137,11 @@ The output screenshots are shown below in which all the tests run, and the final
 ![Resource 28](https://github.com/Fatima-Mujahid/pintos-installation/blob/main/Resources/28.png)
 ![Resource 29](https://github.com/Fatima-Mujahid/pintos-installation/blob/main/Resources/29.png)
 .
+
 .
+
 .
+
 ![Resource 30](https://github.com/Fatima-Mujahid/pintos-installation/blob/main/Resources/30.png)
 ![Resource 31](https://github.com/Fatima-Mujahid/pintos-installation/blob/main/Resources/31.png)
 ![Resource 32](https://github.com/Fatima-Mujahid/pintos-installation/blob/main/Resources/32.png)
