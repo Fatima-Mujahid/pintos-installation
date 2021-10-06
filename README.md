@@ -127,9 +127,9 @@ The 'make' command compiles the code but in this case, as we have already run th
 ![Resource 23](https://github.com/Fatima-Mujahid/pintos-installation/blob/main/Resources/23.png)
 
 (To solve the timeout problem, I opened shutdown.c present in /home/fatimamujahid/os-pintos/pintos/src/devices and added 
-* outw (0xB004, 0x2000); after line number 104 in the
+* outw (0xB004, 0x2000); 
 
-function shutdown_power_off(). Then ran the 'make' and 'make check' commands again in the threads directory.)
+after line number 104 in the function shutdown_power_off(). Then ran the 'make' and 'make check' commands again in the threads directory.)
 The output screenshots are shown below in which all the tests run, and the final result will be displayed, indicating the number of failed and passed tests.
 
 ![Resource 24](https://github.com/Fatima-Mujahid/pintos-installation/blob/main/Resources/24.png)
